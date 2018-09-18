@@ -1,3 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <%= @params["team"]["name"] %>
+    Team Motto: <%= @params["team"]["motto"] %>
 
+    Hero Name: <%= @params["team"]["members"][0]["name"] %>
+    Hero Power: <%= @params["team"]["members"][0]["power"] %>
+    Hero Biography: <%= @params["team"]["members"][0]["biography"] %>
 
+    Hero Name: <%= @params["team"]["members"][1]["name"] %>
+    Hero Power: <%= @params["team"]["members"][1]["power"] %>
+    Hero Biography: <%= @params["team"]["members"][1]["biography"] %>
 
+    Hero Name: <%= @params["team"]["members"][2]["name"] %>
+    Hero Power: <%= @params["team"]["members"][2]["power"] %>
+    Hero Biography: <%= @params["team"]["members"][2]["biography"] %>
+  </body>
+</html>
