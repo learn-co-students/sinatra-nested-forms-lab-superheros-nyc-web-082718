@@ -1,3 +1,15 @@
+<h1><%= @params[:team][:name] %></h1>
 
+<h1>Team Motto: <%= @params[:team][:motto] %></h1>
 
+<h1>Hero Name: <%= @params[:team][:members][0][:name] %></h1>
+<p>Hero Power: <%= @params[:team][:members][0][:power] %></p>
+<p>Hero Biography: <%= @params[:team][:members][0][:biography] %></p>
 
+<h1>Hero Name: <%= @params[:team][:members][1][:name] %></h1>
+<p>Hero Power: <%= @params[:team][:members][1][:power] %></p>
+<p>Hero Biography: <%= @params[:team][:members][1][:biography] %></p>
+
+<h1>Hero Name: <%= @params[:team][:members][2][:name] %></h1>
+<p>Hero Power: <%= @params[:team][:members][2][:power] %></p>
+<p>Hero Biography: <%= @params[:team][:members][2][:biography] %></p>
