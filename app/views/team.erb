@@ -1,3 +1,10 @@
+<h1> <%= @team_name %> </h1>
 
+<h2>Team Motto: <%= @team_motto %> </h2>
 
-
+<% @heroes.map do |hero|  %>
+<% #binding.pry %>
+  <h2> Hero Name: <%= hero["name"] %></h2>
+  Hero Power: <%= hero["power"] %><br>
+  Hero Biography: <%= hero["bio"] %>
+<% end %>
